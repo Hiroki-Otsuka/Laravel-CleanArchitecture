@@ -20,7 +20,7 @@
 
     <!-- Load our React component. -->
     <script src="{{ asset(mix('js/link_button.js')) }}"></script>
-    <script src="like_button.js"></script>
+    {{-- <script src="like_button.js"></script> --}}
 
   </body>
 </html>

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\TopController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +21,4 @@ Route::get('/', function () {
 Route::get('react_test', function () {
     return view('react_test');
 });
+Route::get('top', [TopController::class, 'index']);
